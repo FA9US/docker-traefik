@@ -29,6 +29,20 @@ secrets:
     file: $SECRETSDIR/cloudflare_api_token
   cloudflare_zoneid:
     file: $SECRETSDIR/cloudflare_zoneid
+  oauth_secret:
+    file: $SECRETSDIR/oauth_secret
+  google_client_secret:
+    file: $SECRETSDIR/google_client_secret
+  google_client_id:
+    file: $SECRETSDIR/google_client_id
+  cloudflare_email:
+    file: $SECRETSDIR/cloudflare_email
+  cloudflare_api_key:
+    file: $SECRETSDIR/cloudflare_api_key
+  cloudflare_api_token:
+    file: $SECRETSDIR/cloudflare_api_token
+  cloudflare_zoneid:
+    file: $SECRETSDIR/cloudflare_zoneid
   authelia_jwt_secret:
     file: $SECRETSDIR/authelia_jwt_secret
   authelia_session_secret:
